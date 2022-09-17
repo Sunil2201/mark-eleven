@@ -12,9 +12,9 @@ function compareValues(sum, inputNumber){
         outputSection.innerText = "Lucky number should be greater than zero"
     }else{
         if(sum%inputNumber === 0){
-            outputSection.innerText = "Congratulations!! Your birthday is lucky"
+            outputSection.innerText = "Congratulations!! Your birthday is lucky🥳"
         }else{
-            outputSection.innerText = "Sorry!! Your birthday is not lucky"
+            outputSection.innerText = "Sorry!! Your birthday is not lucky😔"
         }
     }
 }
