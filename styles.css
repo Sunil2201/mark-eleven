@@ -3,6 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary-color: #F8274C;
+    --secondary-color: #FFAB3A;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fad4cc;
+    color: var(--primary-color);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
 .container{
     width: 100%;
     max-width: 500px;
@@ -36,16 +49,59 @@ label{
 input{
     width: 100%;
     padding: 0.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.0rem;
+    color: var(--primary-color);
 }
 button{
+    height: 2.5rem;
     background-color: white;
-    border: 1px solid black;
-    border-radius: 0.2rem;
+    border: none;
+    border-radius: 0.5rem;
     width: 12rem;
     padding: 0.5rem;
     font-size: 1rem;
     margin-top: 2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--secondary-color);
+    color: white;
 }
 #outputBox{
-    padding: 2rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    padding-top: 1.5rem;
 }
+.footer-header{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+ }
+ a{
+    color: var(--primary-color);
+    text-decoration: none;
+ }
+ span{
+    color: var(--secondary-color);
+ }
+ .footer{
+    margin-top: 1rem;
+    padding: 0rem 0rem 0.1rem 0;
+    text-align: center;
+ }
+ .list-non-bullet{
+    list-style: none;
+    padding: 0;
+ }
+ .list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem ;
+ }
+ .logoImg{
+    height: 40px;
+    width: 40px;
+ }
