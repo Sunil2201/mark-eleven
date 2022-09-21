@@ -3,6 +3,8 @@ const luckyNumber = document.querySelector("#luckyNumber");
 const checkNumber = document.querySelector("#checkNumber");
 const outputSection = document.querySelector("#outputBox");
 
+alert("Please note that we are not storing your data anywhere"); 
+
 checkNumber.addEventListener("click", function doSomething(){
     checkDateOfBirthIsLucky()
 })
